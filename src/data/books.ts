@@ -39,7 +39,7 @@ export const almirahs: Almirah[] = [
 
     id: "001",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -97,7 +97,7 @@ export const almirahs: Almirah[] = [
 
     id: "002",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -153,7 +153,7 @@ export const almirahs: Almirah[] = [
 
     id: "003",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -223,7 +223,7 @@ export const almirahs: Almirah[] = [
 
     id: "004",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -303,7 +303,7 @@ export const almirahs: Almirah[] = [
 
     id: "005",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -359,7 +359,7 @@ export const almirahs: Almirah[] = [
 
     id: "006",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -429,7 +429,7 @@ export const almirahs: Almirah[] = [
 
     id: "007",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -503,7 +503,7 @@ export const almirahs: Almirah[] = [
 
     id: "008",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -571,7 +571,7 @@ export const almirahs: Almirah[] = [
 
     id: "009",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -623,7 +623,7 @@ export const almirahs: Almirah[] = [
 
     id: "010",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -671,7 +671,7 @@ export const almirahs: Almirah[] = [
 
     id: "011",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -727,7 +727,7 @@ export const almirahs: Almirah[] = [
 
     id: "012",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -787,7 +787,7 @@ export const almirahs: Almirah[] = [
 
     id: "013",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -843,7 +843,7 @@ export const almirahs: Almirah[] = [
 
     id: "014",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -891,7 +891,7 @@ export const almirahs: Almirah[] = [
 
     id: "015",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -955,7 +955,7 @@ export const almirahs: Almirah[] = [
 
     id: "016",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -1003,7 +1003,7 @@ export const almirahs: Almirah[] = [
 
     id: "017",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
@@ -1059,7 +1059,7 @@ export const almirahs: Almirah[] = [
 
     id: "018",
 
-    subject: "ENGINEERING",
+    subject: "Engineering",
 
     subAlmirahs: {
 
