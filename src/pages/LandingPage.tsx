@@ -122,31 +122,18 @@ export function LandingPage() {
       </main>
 
        <footer
-      // The `mt-auto` class is crucial for pushing the footer to the bottom in a flex container.
-      // I'm using placeholder colors that match the theme described in your code.
-      className="bg-gradient-to-r from-red-800 to-red-600 dark:from-slate-900 dark:to-red-900 text-white mt-auto py-6"
-    >
-      <div 
-        // This container is responsive:
-        // `max-w-7xl` sets the max width on large screens.
-        // `mx-auto` centers it.
-        // `px-4 sm:px-6 lg:px-8` provides adaptive padding for different screen sizes.
-        className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
+        className="bg-gradient-to-r from-uni-maroon to-uni-red 
+                       dark:from-slate-900 dark:to-uni-maroon text-white mt-auto py-6"
       >
-        <p 
-          // The text size is also responsive, larger on bigger screens.
-          className="text-sm sm:text-base text-yellow-300"
-        >
-          © 2025 SAGE University, Bhopal. All rights reserved.
-        </p>
-        <p 
-          // This sub-text also adapts its size.
-          className="text-xs sm:text-sm text-yellow-400/80 mt-2"
-        >
-          Digital Library Navigation System
-        </p>
-      </div>
-    </footer>
+        <div className="max-w-6xl mx-auto px-4 text-center">
+          <p className="text-uni-yellow">
+            © 2025 SAGE University, Bhopal. All rights reserved.
+          </p>
+          <p className="text-uni-gold/80 text-sm mt-2">
+            Digital Library Navigation System
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
