@@ -122,18 +122,42 @@ export function LandingPage() {
       </main>
 
       <footer
-        className="bg-gradient-to-r from-uni-maroon to-uni-red 
-                       dark:from-slate-900 dark:to-uni-maroon text-white mt-auto py-6"
+      // --- FOOTER STYLING ---
+      // `mt-auto` is crucial for sticking the footer to the bottom in a flex container.
+      // `py-6` provides vertical padding.
+      // The background gradient is defined here. I've used standard Tailwind colors
+      // as placeholders for your custom university theme colors.
+      className="bg-gradient-to-r from-red-800 to-red-600 dark:from-slate-900 dark:to-red-900 text-white mt-auto py-6"
+    >
+      <div 
+        // --- CONTAINER STYLING ---
+        // `w-full` ensures the container tries to take the full width.
+        // `max-w-7xl` sets the maximum width on large screens to prevent it from becoming too wide.
+        // `mx-auto` centers the container horizontally.
+        // `px-4 sm:px-6 lg:px-8` provides responsive horizontal padding.
+        // It's 1rem on small screens, 1.5rem on medium, and 2rem on large screens,
+        // giving the content more breathing room as the screen gets bigger.
+        className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
       >
-        <div className="max-w-6xl mx-auto px-4 text-center">
-          <p className="text-uni-yellow">
-            © 2025 SAGE University, Bhopal. All rights reserved.
-          </p>
-          <p className="text-uni-gold/80 text-sm mt-2">
-            Digital Library Navigation System
-          </p>
-        </div>
-      </footer>
+        <p 
+          // --- TEXT STYLING ---
+          // Using responsive text sizes. `text-sm` for mobile and `text-base` for larger screens.
+          // I've used yellow-300 as a placeholder for `uni-yellow`.
+          className="text-sm sm:text-base text-yellow-300"
+        >
+          © 2025 SAGE University, Bhopal. All rights reserved.
+        </p>
+        <p 
+          // --- SUB-TEXT STYLING ---
+          // `mt-2` adds some space above this line.
+          // Text size is kept small for subtlety.
+          // I've used yellow-500 with opacity as a placeholder for `uni-gold/80`.
+          className="text-xs sm:text-sm text-yellow-500/80 mt-2"
+        >
+          Digital Library Navigation System
+        </p>
+      </div>
+    </footer>
     </div>
   );
 }
