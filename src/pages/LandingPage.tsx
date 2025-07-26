@@ -123,7 +123,7 @@ export function LandingPage() {
 
        <footer
         className="bg-gradient-to-r from-uni-maroon to-uni-red 
-                       dark:from-slate-900 dark:to-uni-maroon text-white mt-auto py-6"
+                       dark:from-slate-900 dark:to-uni-maroon text-white py-6"
       >
         <div className="max-w-6xl mx-auto px-4 text-center">
           <p className="text-uni-yellow">
