@@ -6,14 +6,12 @@ import { ThemeToggle } from '../components/ThemeToggle';
 
 export function LandingPage() {
   return (
-    <div
-      className="min-h-screen bg-gradient-to-br from-white to-uni-yellow/20 
-                    dark:from-slate-900 dark:to-uni-maroon transition-colors duration-300"
-    >
-      <header
-        className="bg-gradient-to-r from-uni-maroon to-uni-red 
-                       dark:from-slate-900 dark:to-uni-maroon text-white"
-      >
+    <div className="flex flex-col min-h-screen bg-gradient-to-br from-white to-uni-yellow/20 
+                    dark:from-slate-900 dark:to-uni-maroon transition-colors duration-300">
+
+      {/* Header */}
+      <header className="bg-gradient-to-r from-uni-maroon to-uni-red 
+                         dark:from-slate-900 dark:to-uni-maroon text-white">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-6">
@@ -38,6 +36,7 @@ export function LandingPage() {
         </div>
       </header>
 
+      {/* Main Content */}
       <main className="flex-grow max-w-6xl mx-auto w-full px-4 py-12">
         {/* Hero Section */}
         <div className="text-center mb-16">
@@ -58,11 +57,9 @@ export function LandingPage() {
 
         {/* Features Grid */}
         <div className="grid md:grid-cols-3 gap-8 mb-16">
+          {/* Feature 1 */}
           <div className="feature-card group">
-            <div
-              className="bg-uni-yellow/20 dark:bg-uni-maroon/30 p-6 rounded-2xl transition-all duration-300
-                          group-hover:scale-[1.02] group-hover:shadow-xl"
-            >
+            <div className="bg-uni-yellow/20 dark:bg-uni-maroon/30 p-6 rounded-2xl transition-all duration-300 group-hover:scale-[1.02] group-hover:shadow-xl">
               <BookOpen className="w-12 h-12 text-uni-orange dark:text-uni-gold mb-4" />
               <h3 className="text-xl font-semibold text-uni-maroon dark:text-uni-yellow mb-2">
                 Extensive Collection
@@ -74,11 +71,9 @@ export function LandingPage() {
             </div>
           </div>
 
+          {/* Feature 2 */}
           <div className="feature-card group">
-            <div
-              className="bg-uni-gold/20 dark:bg-uni-red/30 p-6 rounded-2xl transition-all duration-300
-                          group-hover:scale-[1.02] group-hover:shadow-xl"
-            >
+            <div className="bg-uni-gold/20 dark:bg-uni-red/30 p-6 rounded-2xl transition-all duration-300 group-hover:scale-[1.02] group-hover:shadow-xl">
               <SearchIcon className="w-12 h-12 text-uni-red dark:text-uni-gold mb-4" />
               <h3 className="text-xl font-semibold text-uni-maroon dark:text-uni-yellow mb-2">
                 Smart Search
@@ -90,11 +85,9 @@ export function LandingPage() {
             </div>
           </div>
 
+          {/* Feature 3 */}
           <div className="feature-card group">
-            <div
-              className="bg-uni-orange/20 dark:bg-uni-orange/30 p-6 rounded-2xl transition-all duration-300
-                          group-hover:scale-[1.02] group-hover:shadow-xl"
-            >
+            <div className="bg-uni-orange/20 dark:bg-uni-orange/30 p-6 rounded-2xl transition-all duration-300 group-hover:scale-[1.02] group-hover:shadow-xl">
               <QrCode className="w-12 h-12 text-uni-maroon dark:text-uni-gold mb-4" />
               <h3 className="text-xl font-semibold text-uni-maroon dark:text-uni-yellow mb-2">
                 QR Navigation
@@ -107,7 +100,7 @@ export function LandingPage() {
           </div>
         </div>
 
-        {/* CTA Section */}
+        {/* CTA */}
         <div className="text-center">
           <Link
             to="/library"
@@ -121,10 +114,9 @@ export function LandingPage() {
         </div>
       </main>
 
-       <footer
-        className="bg-gradient-to-r from-uni-maroon to-uni-red 
-                       dark:from-slate-900 dark:to-uni-maroon text-white mt-auto py-6"
-      >
+      {/* Footer */}
+      <footer className="bg-gradient-to-r from-uni-maroon to-uni-red 
+                         dark:from-slate-900 dark:to-uni-maroon text-white py-6">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <p className="text-uni-yellow">
             © 2025 SAGE University, Bhopal. All rights reserved.
