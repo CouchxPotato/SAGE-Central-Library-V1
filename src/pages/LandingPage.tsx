@@ -6,10 +6,11 @@ import { ThemeToggle } from '../components/ThemeToggle';
 
 export function LandingPage() {
   return (
-    <div
-      className="min-h-screen bg-gradient-to-br from-white to-uni-yellow/20 
-                    dark:from-slate-900 dark:to-uni-maroon transition-colors duration-300"
-    >
+   <div
+      className="flex flex-col min-h-screen bg-gradient-to-br from-white to-uni-yellow/20 
+              dark:from-slate-900 dark:to-uni-maroon transition-colors duration-300"
+     >
+
       <header
         className="bg-gradient-to-r from-uni-maroon to-uni-red 
                        dark:from-slate-900 dark:to-uni-maroon text-white"
