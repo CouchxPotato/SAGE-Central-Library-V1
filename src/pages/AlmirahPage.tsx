@@ -117,18 +117,39 @@ export function AlmirahPage() {
       </main>
 
       <footer
-        className="bg-gradient-to-r from-uni-maroon to-uni-red 
-                       dark:from-slate-900 dark:to-uni-maroon text-white mt-auto py-6"
+  className="bg-gradient-to-r from-uni-maroon to-uni-red 
+             dark:from-slate-900 dark:to-uni-maroon text-white py-6"
+>
+  <div className="max-w-6xl mx-auto px-4 text-center space-y-2">
+    <p className="text-sm text-uni-gold/90">
+      Developed by{' '}
+      <a
+        href="https://www.linkedin.com/in/aneesh-jain-5890101b1"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline hover:text-uni-yellow transition-colors"
       >
-        <div className="max-w-6xl mx-auto px-4 text-center">
-          <p className="text-uni-yellow">
-            © 2025 SAGE University, Bhopal. All rights reserved.
-          </p>
-          <p className="text-uni-gold/80 text-sm mt-2">
-            Digital Library Navigation System
-          </p>
-        </div>
-      </footer>
+        Aneesh Jain
+      </a>{' '}
+      &{' '}
+      <a
+        href="https://www.linkedin.com/in/pavitra-n-dubey/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline hover:text-uni-yellow transition-colors"
+      >
+        Pavitra N Dubey
+      </a>
+    </p>
+    <p className="text-uni-yellow">
+      © 2025 SAGE University, Bhopal. All rights reserved.
+    </p>
+    <p className="text-uni-gold/80 text-sm">
+      Digital Library Navigation System
+    </p>
+  </div>
+</footer>
+
     </div>
   );
 }
