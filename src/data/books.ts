@@ -558,6 +558,54 @@ export const almirahs: Almirah[] = [
     }
   },
   {
+    id: "019",
+    subject: "Engineering",
+    subAlmirahs: {
+      a: {
+        id: "A-019",
+        books: [
+          { title: "Computer System Architecture By M. Morris Mano", shelf: 1 },
+          { title: "Computer System Architecture By M. Morris Mano", shelf: 2 },
+          { title: "Fundamental of Computer Algorithms By Ellis Horowitz", shelf: 3 },
+          { title: "A Practical Approach Cloud Computing By A. R. Velte", shelf: 4 },
+          { title: "Operating System By Abraham Silberschatz", shelf: 4 },
+          { title: "Operating System By William Stallings", shelf: 4 },
+          { title: "Cloud Computing By Daniel Kirsch", shelf: 4 },
+          { title: "Data & Computer Communications By William Stallings", shelf: 5 },
+          { title: "Operating System By Tenenbaum", shelf: 5 },
+          { title: "Computer Network By Andrew S. Tanenbaum", shelf: 6 },
+          { title: "Computer Network and Internet By Dougles E Comer", shelf: 6 }
+        ]
+      },
+      b: {
+        id: "B-019",
+        books: []
+      }
+    }
+  },
+  {
+    id: "020",
+    subject: "Engineering",
+    subAlmirahs: {
+      a: {
+        id: "A-020",
+        books: [
+          { title: "Anatennas Wave Propagation By K. D. Prasad", shelf: 1 },
+          { title: "Anatennas Wave Propagation By K. D. Prasad", shelf: 2 },
+          { title: "Anatennas Wave Propagation By K. D. Prasad", shelf: 3 },
+          { title: "Anatennas Wave Propagation By K. D. Prasad", shelf: 4 },
+          { title: "Anatennas Wave Propagation By K. D. Prasad", shelf: 5 },
+          { title: "Introduction to Electrodynamics By David Griffiths", shelf: 6 },
+          { title: "C++ Without Fear By Brian Overland", shelf: 6 }
+        ]
+      },
+      b: {
+        id: "B-020",
+        books: []
+      }
+    }
+  },
+  {
     id: "041",
     subject: "Agriculture",
     subAlmirahs: {
@@ -1448,3 +1496,5 @@ export const almirahs: Almirah[] = [
     }
   }
 ];
+
+
