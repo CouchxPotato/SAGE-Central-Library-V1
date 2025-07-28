@@ -26,12 +26,14 @@ export const almirahs: Almirah[] = [
         id: "A-001",
         books: [
           { title: "Digital image Processing and Computer Vision By Sonka, Milan", shelf: 1 },
-          { title: "Theory of Machines By S. S. Ratan", shelf: 1 },
+          { title: "Theory of Machines By S. S. Ratan ", shelf: 1 },
+          { title: "Theory of Machines By Sadhu Singh", shelf: 1 },
           { title: "Concept of Programming Languages  By Robert W. Sebesta", shelf: 2 },
           { title: "Theory of Machines By R. S. Khurmi", shelf: 3 },
           { title: "Theory of Machines By R. S. Khurmi", shelf: 4 },
           { title: "Theory of Machines By R. S. Khurmi", shelf: 5 },
-          { title: "IT for Librarians By Ansari, K. Ravindran", shelf: 6 }
+          { title: "IT for Librarians By Ansari, K. Ravindran", shelf: 6 },
+          { title: "Let Us C by Yashvant Kanetkar", shelf: 6 }
         ]
       },
       b: {
@@ -41,6 +43,8 @@ export const almirahs: Almirah[] = [
           { title: "Data Structures By Seymour Lipschut", shelf: 2 },
           { title: "Data Structures By Seymour Lipschut", shelf: 3 },
           { title: "Advanced Computer Architecture by Kai Hwang", shelf: 4 },
+          { title: "Data structures using C and C++ By Yedidyah Langsam", shelf: 4 },
+          { title: "Theory of Computer Science By K. L. P. Mishra", shelf: 4 },
           { title: "Concepts in Engineering Design By R. K. Gupta", shelf: 5 },
           { title: "Concepts in Engineering Design By R. K. Gupta", shelf: 6 }
         ]
@@ -55,6 +59,7 @@ export const almirahs: Almirah[] = [
         id: "A-002",
         books: [
           { title: "Thermal Engineering By R. K. Rajput", shelf: 1 },
+          { title: "Textbook of Thermal Engineering By R. S. Khurmi", shelf: 1 },
           { title: "Linear Integrated Circuits by Roy Choudhary", shelf: 2 },
           { title: "T. B. of Thermal Engineering K. S. Khurmi", shelf: 3 },
           { title: "Electromagnetic Waves And Radiating Systems By Edward C. Jordan", shelf: 4 },
@@ -66,6 +71,7 @@ export const almirahs: Almirah[] = [
         id: "B-002",
         books: [
           { title: "Textbook of Fluid Mechanics and Hydraulic Machines By  RK Rajput", shelf: 1 },
+          { title: "Disaster Management By Dhunna, Mukesh", shelf: 1 },
           { title: "Circuit Theory By A. Chakrabarti", shelf: 2 },
           { title: "Circuit Theory By A. Chakrabarti", shelf: 3 },
           { title: "Circuit Theory By A. Chakrabarti", shelf: 4 },
@@ -673,9 +679,13 @@ export const almirahs: Almirah[] = [
           { title: "Introduction to Forestry By S. S. Sagwal", shelf: 1 },
           { title: "Introduction to Forestry By S. S. Sagwal", shelf: 2 },
           { title: "T.B of Applied Entomology-II By Gursharan Singh", shelf: 3 },
+          { title: "A TextBook of Applied Entomology By K. P. Srivastava", shelf: 3 },
+          { title: "Diseases of Crop Plants in India By G. Rangaswami", shelf: 3 },
           { title: "Statistics for Agricultural Sciences : G Nageswara Rao", shelf: 4 },
+          { title: "Integrated Pest Management Concepts By Ramesh Arora, & Gs Dhaliwal", shelf: 4 },
           { title: "Introduction to Forestry By S. R. Reddy", shelf: 5 },
-          { title: "Plant Breeding By B. D. Singh", shelf: 6 }
+          { title: "Plant Breeding By B. D. Singh", shelf: 6 },
+          { title: "Plant Breeding By Phundan Singh", shelf: 6 }
         ]
       },
       b: {
@@ -685,8 +695,11 @@ export const almirahs: Almirah[] = [
           { title: "Computer Fundamentals & Programming In C By Pradip Dey", shelf: 1 },
           { title: "T. B. of Livestock Production Management By V. N. Gautam", shelf: 2 },
           { title: "Essentials of Farm Financial Management By S. S. Johl", shelf: 2 },
-          { title: "Diseases of Crop Plants in India By G. Rangaswami", shelf: 3 },
-          { title: "Agriculture Economics By S. Subha Reddy", shelf: 4 }
+          { title: "T.B. of Oleri & Flori Culture By G. S. Saini", shelf: 3 },
+          { title: "Fundamentls Of Biochemistry By Jain, J. L.", shelf: 3 },
+          { title: "Agriculture Economics By S. Subha Reddy", shelf: 4 },
+          { title: "T. B. of Agriculture Engineering By Jagdishwar Sahay", shelf: 5 },
+          { title: "Yog Darshan By Geeta Press", shelf: 6 }
         ]
       }
     }
@@ -699,802 +712,25 @@ export const almirahs: Almirah[] = [
         id: "A-044",
         books: [
           { title: "Introductory Biology By P. K. Sehgal", shelf: 1 },
-          { title: "Principles of Agronomy By T Yellamanda Reddy", shelf: 1 },
-          { title: "Instant Horticulture By S. N. Gupta", shelf: 3 }
+          { title: "Introductory Biology By P. K. Sehgal", shelf: 2 },
+          { title: "Introductory Biology By P. K. Sehgal", shelf: 3 },
+          { title: "Introductory Biology By P. K. Sehgal", shelf: 4 },
+          { title: "Introductory Biology By P. K. Sehgal", shelf: 5 },
+          { title: "Introductory Biology By P. K. Sehgal", shelf: 6 }
         ]
       },
       b: {
         id: "B-044",
         books: [
-          { title: "Objective Agriculture Economics By K. Nirmal Ravi Kumar", shelf: 4 },
+          { title: "Principles of Agronomy By T Yellamanda Reddy", shelf: 1 },
+          { title: "Principles of Agronomy By T Yellamanda Reddy", shelf: 2 },
+          { title: "Instant Horticulture By S. N. Gupta", shelf: 3 },
+          { title: "Objective Agrculture Economics By K. Nirmal Ravi Kumar", shelf: 4 },
           { title: "Extension Communication & Management By G. L. Ray", shelf: 5 },
           { title: "ELEMENTS OF GENETICS by Phundan Singh", shelf: 6 },
           { title: "Plant Disease By R. S. Singh", shelf: 6 }
         ]
       }
     }
-  },
-  {
-    id: "045",
-    subject: "Agriculture",
-    subAlmirahs: {
-      a: {
-        id: "A-045",
-        books: [
-          { title: "Fund. Of Genetics By Omkar Singh", shelf: 1 },
-          { title: "Intrepreneurship Development & Business Communication With Practical Work By Saru Narayan", shelf: 1 },
-          { title: "Fund. Of Crop Physiology By Omkar Singh", shelf: 1 },
-          { title: "Introductory Biology By Pratap Singh", shelf: 1 },
-          { title: "Vegetable Production By G. S. Sani", shelf: 2 },
-          { title: "Agricultural Heritage By Subadh Kumar", shelf: 2 },
-          { title: "Rural Sociology & Educational Psychology By B. D. Tyagi", shelf: 2 },
-          { title: "Livestock & Poultry Management By Dabes Gupta", shelf: 2 },
-          { title: "Plant Biotechnology By H. R. Dagla", shelf: 2 }
-        ]
-      },
-      b: {
-        id: "B-045",
-        books: [
-          { title: "Human Values & Ethics By D. K. Sharma", shelf: 2 },
-          { title: "Farm Structure Power & Machinery By Randhawa Chouhan", shelf: 3 },
-          { title: "Introductory Forestry By Vijay Ku. Umrab", shelf: 3 },
-          { title: "Introductory Biology By Jay Sharma", shelf: 3 },
-          { title: "Pasts of Crops & Stored Grains & Their Management By Krishn Datt Upadhya", shelf: 3 },
-          { title: "Fund. Of Agronomy By I. P. S. Ahalawat", shelf: 3 },
-          { title: "Crop Improvement By Rajendra Ku. Yadav", shelf: 3 },
-          { title: "Livestock Production & Management By Indrajeet Jouhar", shelf: 4 },
-          { title: "Fundamentals of Plant Biochemistry & Biotechnology By Omkar Singh", shelf: 4 },
-          { title: "NSS/NCC/Physical Education & Yoga Practices By Kaptan P. K. Shamra", shelf: 4 },
-          { title: "Agricultural Microbiology By Omkar Singh", shelf: 4 },
-          { title: "Elementary Mathematics By R. Singh", shelf: 4 },
-          { title: "Principles of Genetics & Plant Breeding By Omkar Singh", shelf: 5 },
-          { title: "Fundamentals of Agriculture Economics By Silpi Jain", shelf: 5 },
-          { title: "Plant Pathology By V. P. Singh", shelf: 5 },
-          { title: "Fundamentals of Soil Science By N. L. Sharma", shelf: 5 },
-          { title: "Agricultural Entomology By Yoges Kumar Mathur", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "046",
-    subject: "Agriculture",
-    subAlmirahs: {
-      a: {
-        id: "A-046",
-        books: [
-          { title: "Intellectual Property Rights By Neeraj Pandey", shelf: 1 },
-          { title: "Management and Entrepreneurship By N. V. R. Naidu", shelf: 1 },
-          { title: "Principles & Practices of Agronomy By S. S. Singh", shelf: 2 },
-          { title: "Practical Manual of Crop Improvement-I By Rajendra Ku. Yadav", shelf: 2 },
-          { title: "Breeding Field Crops By David Allen Slepar", shelf: 3 },
-          { title: "Practical Manual on Crop Improvement-II By Rajendra Ku. Yadav", shelf: 3 }
-        ]
-      },
-      b: {
-        id: "B-046",
-        books: [
-          { title: "Introduction to Environmental Science By Y. Anjaneyulu", shelf: 3 },
-          { title: "Agriculture Insect Pests and Their Control By V. B. Awasthi", shelf: 4 },
-          { title: "Practical Handbook of Genetics By Vikas Pali", shelf: 4 },
-          { title: "Modern Technology in Vegetable Production By Pranab Hazra", shelf: 5 },
-          { title: "Diseases of Fruit Crops By R. S. Singh", shelf: 5 },
-          { title: "Practical Manual on Introductory Biology By Mithlesh Kumar", shelf: 6 },
-          { title: "T.B. of Agricultural Extension By Sagar Mondal", shelf: 6 },
-          { title: "T.B. on Agri-Informatics By Amit A. Degirikar", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "047",
-    subject: "Science",
-    subAlmirahs: {
-      a: {
-        id: "A-047",
-        books: [
-          { title: "Concepts of Genetics By William S. Klug", shelf: 1 },
-          { title: "Instrumental Methods of Chemical Analysis By Gurdeep R. Chatwal ", shelf: 1 },
-          { title: "T.B. of Organic Chemistry By K. S. Tiwari", shelf: 1 },
-          { title: "Chordate Zoology By E. L. Jordan", shelf: 2 },
-          { title: "T.B. of Microbiology By R. C. Dubey", shelf: 2 },
-          { title: "Elementary Mathematics By G. Dorofeev", shelf: 3 },
-          { title: "T.B. of Inorganic Chemistry By S. K. De", shelf: 3 },
-          { title: "T.B. of Organic Chemistry By Arun Bahl", shelf: 4 },
-          { title: "Mechanics By D. S. Mathur", shelf: 4 },
-          { title: "T.B. of Organic Chemistry By K. S. Tiwari", shelf: 4 },
-          { title: "Genetics By B. D. Singh", shelf: 5 }
-        ]
-      },
-      b: {
-        id: "B-047",
-        books: [
-          { title: "Rural Sociology and Educational Psychology By S. Mondal", shelf: 1 },
-          { title: "Biometric and Fingerprint Analysis By S. Indira Sudha", shelf: 2 },
-          { title: "Vogel's Textbook of Practical Organic Chemistry By B. S. Furniss", shelf: 4 },
-          { title: "Adv. General Organic Chemistry By Sachin Ku. Ghosh", shelf: 5 },
-          { title: "Guide of Computer Forensic and Investigation By Nelson Phillips", shelf: 6 },
-          { title: "T. B. of Biotechnology By R. C. Dubey", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "048",
-    subject: "Science",
-    subAlmirahs: {
-      a: {
-        id: "A-048",
-        books: [
-          { title: "Chemistry of Degree Student By R. L. Madan", shelf: 1 },
-          { title: "Selected Topics in Inorganic Chemistry By Wahid U. Malik", shelf: 1 },
-          { title: "T.B. of Plant Physiology and Biotechnology By S. K. Verma", shelf: 2 },
-          { title: "Adv. Inorganic Chemistry By Ashutosh Kar", shelf: 2 },
-          { title: "General and Inorganic Chemistry By R. P. Sarkar", shelf: 3 },
-          { title: "Physical Chemistry By K. L. Kapoor", shelf: 3 },
-          { title: "College Botany Vol-I By B. P. Pandey", shelf: 3 },
-          { title: "Advanced Organic Chemistry By Maya Shankar Singh", shelf: 4 },
-          { title: "Biodiversity: Concepts and Conservation By B. . Hosetti", shelf: 4 },
-          { title: "Principles of Instrumental Analysis By Skoog", shelf: 5 },
-          { title: "Advanced General Organic Chemistry By Sachin Ku. Ghosh", shelf: 5 },
-          { title: "Microbiology By Michael J. Pelezar Jr.", shelf: 6 }
-        ]
-      },
-      b: {
-        id: "B-048",
-        books: [
-          { title: "Physical Evidence in Criminal Investigation & Trials By B. P. Maithil", shelf: 1 },
-          { title: "Handbook Of Forensic Psychology By Vimala Veeraraghavan", shelf: 2 },
-          { title: "The Narcotic Drugs and Psychotropic Substances Act 1985 By Khetrapal", shelf: 3 },
-          { title: "Indian Evidence Act 1872", shelf: 3 },
-          { title: "The Code of Criminal Procedure 1973 By Khetrapal", shelf: 3 },
-          { title: "T.B of Forensic Chemistry By Syed Aftab Iabal", shelf: 4 },
-          { title: "Indian Penal Code 1860 By Khetrapal", shelf: 4 },
-          { title: "EXPERIMENTS IN MICROBIOLOGY PLANT PATHOLOGY TISSUE CULTURE AND MICROBIAL BIOTECHNOLOGY By K. Janeja", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "049",
-    subject: "Science",
-    subAlmirahs: {
-      a: {
-        id: "A-049",
-        books: [
-          { title: "Criminology BY Ram Shuja", shelf: 1 },
-          { title: "Astrophysics By K. D. Abhyankar", shelf: 1 },
-          { title: "Vogel's Qualitative Inorganic Analysis By Svehla", shelf: 1 },
-          { title: "Classical Mechanics By N. C. Rana", shelf: 3 },
-          { title: "Photochemistry and Pericyclic Reactions By Jagdamba Singh", shelf: 3 },
-          { title: "Microwaves By K. C. Gupta", shelf: 3 },
-          { title: "Instrumental Methods of Analysis By Hobart H. Willard", shelf: 4 },
-          { title: "Spectroscopy of Organic Compounds By P. S. Kalsi", shelf: 5 },
-          { title: "Advance Organic Chemistry By Arun Bahl", shelf: 5 },
-          { title: "Invertebrate Zoology By E. L. Jordan", shelf: 5 },
-          { title: "T. B. of Physical Chemistry By K. L. Kapoor", shelf: 5 },
-          { title: "An Introduction to Mechanics By Daniel Kleppner", shelf: 5 },
-          { title: "Inorganic chemistry By James E. Hubeey", shelf: 6 }
-        ]
-      },
-      b: {
-        id: "B-049",
-        books: [
-          { title: "Computer Forensics By John Vacca", shelf: 2 },
-          { title: "FUNDAMENTALS OF ENTREPRENEURSHIP. MOHANTY, SANGRAM KESHARI", shelf: 2 },
-          { title: "Adavanced T. B. on Bio", shelf: 3 },
-          { title: "FORENSIC SCIENCE IN CRIMINAL INVESTIGATION & COURT EVIDENCE BY VN SEHGAL", shelf: 4 },
-          { title: "An Introduction To Forensic Hair Examination By Shubhra Goutam", shelf: 4 },
-          { title: "Cyber Security By Nina Godbole", shelf: 5 },
-          { title: "TEXTBOOK OF QUANTITATIVE CHEMICAL ANALYSIS By J. Mendham", shelf: 5 },
-          { title: "Quantum Chemistry By R. K. Prasad", shelf: 5 },
-          { title: "University Physics with Modern Physics By Hugh D. Young", shelf: 5 },
-          { title: "Essentials of Forensic Medicine & Toxicology By K. S. Narayan Reddy", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "050",
-    subject: "Science",
-    subAlmirahs: {
-      a: {
-        id: "A-050",
-        books: [
-          { title: "Physical Chemistry By K. L. Kapoor", shelf: 1 },
-          { title: "T. B. of Fishery Science & Indian Fisheries By C.B.L. Shrivastava", shelf: 1 },
-          { title: "Stereochemistry Conformation and Mechanism By P. S. Kalsi", shelf: 2 },
-          { title: "Basic Concepts of Analysis Chemistry By S. M. Khoopkar", shelf: 3 },
-          { title: "Fundamental of Biochemistry By J. L. Jain", shelf: 3 },
-          { title: "Fundamental of Molecular Spectroscopy By Colin N. Banwell", shelf: 3 },
-          { title: "Group Theory in Chemistry By Ashok K. Mukherjee", shelf: 4 },
-          { title: "Advanced Organic Chemistry By Maya Shankar Singh", shelf: 4 },
-          { title: "Organic Chemistry Volume By I. L. Finar", shelf: 4 },
-          { title: "T.B. of Plant Physiology Biochemistry and Biotech By S. K. Verma", shelf: 4 },
-          { title: "T.B. of Inorganic Chemistry By A. K. De", shelf: 4 },
-          { title: "Introduction to Classical Mechanics By R. G. Takwale", shelf: 5 },
-          { title: "T. B. Physical Chemistry By A. S. Negi", shelf: 5 },
-          { title: "Classical Mechanics By Herbert Goldstein", shelf: 5 }
-        ]
-      },
-      b: {
-        id: "B-050",
-        books: [
-          { title: "T.B. of Forensic Medicine Medical Jurisprudence & Toxicology By G. K. Sharma", shelf: 1 },
-          { title: "Forensic Science in Crime Investigation By B. S. Nabar", shelf: 2 },
-          { title: "Crime Scene Management By M. S. Rao", shelf: 4 },
-          { title: "An Introduction to Forensic Science in Criminal Investigation By Rukmani Krishnamurthy", shelf: 5 },
-          { title: "Introduction to quantum mechanics By David J. Griffiths", shelf: 5 },
-          { title: "Organics Chemistry By Robert Thomton Morrison", shelf: 5 },
-          { title: "Basic Inorganic Chemistry By F. Albert Cotton", shelf: 5 },
-          { title: "Theory & Problems of Theoretical Mechanics By Spiegel Murray", shelf: 5 },
-          { title: "Forensic Serology & Blood Examination By Archana Tripathi", shelf: 6 },
-          { title: "Guidebook to Mechanism in Organic Chemistry By Peter Sykes", shelf: 6 },
-          { title: "Advanced T. B. on Biodiversity By K. V. Krishnamurthy", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "051",
-    subject: "Arts Humanities Social Science",
-    subAlmirahs: {
-      a: {
-        id: "A-051",
-        books: [
-          { title: "General Knowledge 2021 By Team Prabhat", shelf: 1 },
-          { title: "Medieval India By L. P. Sharma", shelf: 1 },
-          { title: "Indian Economy By Gaurav Datt", shelf: 2 },
-          { title: "Micro Economics By M. L. Seth", shelf: 2 },
-          { title: "Fluency in English-II By Oxford", shelf: 3 },
-          { title: "Certificate Physical And Human Geography By G. C. Leony", shelf: 3 },
-          { title: "History of the Modern World By B. V. Rao", shelf: 4 }
-        ]
-      },
-      b: {
-        id: "B-051",
-        books: [
-          { title: "Health Psychology By Selley E. Taylor", shelf: 4 },
-          { title: "Mr Gandhi and Emancipation of the Untouchables By B. R. Ambedkar", shelf: 4 },
-          { title: "History of the Modern World By B. V. Rao", shelf: 5 },
-          { title: "Samajshastra By D. S. Baghel", shelf: 5 },
-          { title: "SOCIAL PSYCHOLOGY By Shelley E. Taylor", shelf: 6 },
-          { title: "Social Problems in India By Ram Ahuja", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "052",
-    subject: "Arts Humanities Social Science",
-    subAlmirahs: {
-      a: {
-        id: "A-052",
-        books: [
-          { title: "Modern Indian Political Thought By V. P. Varma", shelf: 1 },
-          { title: "Cousepts and Methods of Histography By K. L. Khurana", shelf: 1 },
-          { title: "Modern Indian Political Thought By V. P. Varma", shelf: 2 },
-          { title: "Principles of Political Science By Anup Chand Kapur", shelf: 2 },
-          { title: "Political Theory By R. C. Agarwal", shelf: 2 },
-          { title: "Modern Indian Political Thought By V. P. Varma", shelf: 3 },
-          { title: "History of Medical India By Satshi Chandra", shelf: 3 }
-        ]
-      },
-      b: {
-        id: "B-052",
-        books: [
-          { title: "Public Administration By M. Laxmi Kanth", shelf: 4 },
-          { title: "Comparative Government and Politics. By Chetna Sharma Pushp", shelf: 4 },
-          { title: "Public Administration By M. Laxmi Kanth", shelf: 5 },
-          { title: "Ancient India By V. D. Mahajan", shelf: 5 },
-          { title: "Research Methodology BY C. R. Kothari", shelf: 5 },
-          { title: "Fundamentals Of Environmental Studies By Mahua Bas", shelf: 5 },
-          { title: "Public Administration By M. Laxmi Kanth", shelf: 6 },
-          { title: "Indian Government and Politics By B. L. Fadia", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "053",
-    subject: "Language",
-    subAlmirahs: {
-      a: {
-        id: "A-053",
-        books: [
-          { title: "Tom Jones By Henry Fielding", shelf: 1 },
-          { title: "Oliver Twist By Charles Dickens", shelf: 1 },
-          { title: "Paradise Lost By John Milton", shelf: 2 },
-          { title: "Adventures of Huckleberry Finn By Mark Twain", shelf: 2 },
-          { title: "Pride and Prejudice By Jane Austen", shelf: 2 },
-          { title: "A short history of English literature By Harry Blamires", shelf: 2 },
-          { title: "A Background To The Study Of English Literature By Birjadish Prasad", shelf: 4 }
-        ]
-      },
-      b: {
-        id: "B-053",
-        books: [
-          { title: "Hindutva By J. Nanda Kumar", shelf: 3 },
-          { title: "The Power of your Subconscious Mind By Joseph Murphy", shelf: 3 },
-          { title: "Major Constitutions of the World By Dr. V.N. Khanna", shelf: 5 },
-          { title: "Issues in Twentieth-Century World History By Sneh Mahajan", shelf: 6 },
-          { title: "An Intellectual History for India By Shruthi Kapila", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "054",
-    subject: "Language",
-    subAlmirahs: {
-      a: {
-        id: "A-054",
-        books: [
-          { title: "Modern By S. P. Varma", shelf: 1 },
-          { title: "Bhartiya Videsh Niti By J. N. Dixit", shelf: 2 },
-          { title: "Bhartiya Samaj BY M. L. Gupta", shelf: 2 },
-          { title: "Western Political Thought By O. P. Gauba", shelf: 3 }
-        ]
-      },
-      b: {
-        id: "B-054",
-        books: [
-          { title: "Wuthering Heights By Emily Brontë", shelf: 3 },
-          { title: "Modern Indian History By V. D. Mahajan", shelf: 4 },
-          { title: "Medieval India By K. L. Khurana", shelf: 5 },
-          { title: "Indian Government and Politics (Bhartiya Shasan Avam Rajniti) By BL Fadia", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "055",
-    subject: "Commerce",
-    subAlmirahs: {
-      a: {
-        id: "A-055",
-        books: [
-          { title: "Project Management By Vishwanath Murthy", shelf: 1 },
-          { title: "General Knowledge By Lucent's", shelf: 1 },
-          { title: "Indian Financial System By R. R. Machiraju", shelf: 2 },
-          { title: "Goods & Services Tax & Customs Duty By H. S. Malhotra", shelf: 2 },
-          { title: "Banking Risk and Insurance Management By N. R. Mohan Prakash", shelf: 3 },
-          { title: "Cost Accounting By Jawahar Lal", shelf: 3 },
-          { title: "Cost Accounting By M. C. Shukla", shelf: 3 }
-        ]
-      },
-      b: {
-        id: "B-055",
-        books: [
-          { title: "Advanced Economic Theory BY H. L. Ahuja", shelf: 4 },
-          { title: "Principles Practice of Accounting By P. C. Tulsian", shelf: 4 },
-          { title: "The C++ Programming Language By Bjarne Stroustrup", shelf: 4 },
-          { title: "Principles of Microeconomics By H. L. Ahuja", shelf: 5 },
-          { title: "Financial Management By I. M. Pandey", shelf: 5 },
-          { title: "Modern Economics By H. L. Ahuja", shelf: 6 },
-          { title: "Corporate Accounting By S. N. Mahiswari", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "056",
-    subject: "Commerce",
-    subAlmirahs: {
-      a: {
-        id: "A-056",
-        books: [
-          { title: "Disaster Management By R. Subramaniam", shelf: 1 },
-          { title: "Management and Cost Accounting By Colin Drury", shelf: 1 },
-          { title: "Financial Derivatives: Text and Cases By Prakash B Yaragol", shelf: 1 },
-          { title: "Essential of Business Economics By D. N. Dwivedi", shelf: 1 },
-          { title: "Business Economics By H. L. Ahuja", shelf: 2 },
-          { title: "Indirect Tax Laws By Mahesh Gour", shelf: 2 },
-          { title: "Income Tax By H. C. Mehrotra", shelf: 2 },
-          { title: "Auditing By T. R. Sharma", shelf: 2 }
-        ]
-      },
-      b: {
-        id: "B-056",
-        books: [
-          { title: "Advanced Accounting By S. N. Maheswari", shelf: 3 },
-          { title: "Manual of Business Law By S. N. Maheswari", shelf: 3 },
-          { title: "Python Programming By Reema Thareja", shelf: 3 },
-          { title: "Organisational Behaviour By C. B. Gupta", shelf: 3 },
-          { title: " International Financial Management By Vyuptakesh Sharma", shelf: 3 },
-          { title: "Accounting for Management By S. N. Maheswari", shelf: 4 },
-          { title: "Project Management By K. Nagarajan", shelf: 4 },
-          { title: "Morden Microeconomics By H. L. Ahuja", shelf: 5 },
-          { title: "Financial Accounting By M. Shukla", shelf: 5 },
-          { title: "Financial Accounting By S. N. Maheshwari", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "057",
-    subject: "Commerce",
-    subAlmirahs: {
-      a: {
-        id: "A-057",
-        books: [
-          { title: "International Business By K. Aswathappa", shelf: 1 },
-          { title: "Risk Management & Insurance By S. Arunajatesa", shelf: 1 },
-          { title: "Cognitive Psychology By Kathleen M. Galotti", shelf: 1 },
-          { title: "Business Law By L. M. Porwal", shelf: 1 },
-          { title: "Economics Environment of Business by H. L. Ahuja", shelf: 2 },
-          { title: "Economy By V. K. Puri", shelf: 2 },
-          { title: "GST & Customs Law By K. M. Bansal", shelf: 2 },
-          { title: "Indian Economy Issues & Concerns By K. R. Gupta", shelf: 2 }
-        ]
-      },
-      b: {
-        id: "B-057",
-        books: [
-          { title: "Financial Management By P. C. Tulsian", shelf: 3 },
-          { title: "Principles and Practice of Auditing By R. G. Saxena", shelf: 3 },
-          { title: "Business Legislation for Management By M. C. Kuchhal", shelf: 3 },
-          { title: "Tulsian's Quick Revision for Financial Management By Tulsian P. C.", shelf: 3 },
-          { title: "Financial Management By Prasanna Chandra", shelf: 4 },
-          { title: "Cost Accounting By S. P. Jain", shelf: 4 },
-          { title: "Business Environment By K. Aswathappa", shelf: 5 },
-          { title: "Fundamental of Statistics By D. N. Elhance", shelf: 5 },
-          { title: "Business Environment By Francia Cherunilam", shelf: 5 },
-          { title: "Financial Accounting By Jawahr Lal", shelf: 5 },
-          { title: "Marketing Management By Arun Kumar", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "058",
-    subject: "Commerce",
-    subAlmirahs: {
-      a: {
-        id: "A-058",
-        books: [
-          { title: "Strategic Corporate Social Responsibility By Aswathappa", shelf: 1 },
-          { title: "Financial Management By M. Y. Khan", shelf: 1 },
-          { title: "Human Resource Management By Aswathappa", shelf: 1 },
-          { title: "Human Resource Management By V. S. P. Rao", shelf: 1 },
-          { title: "Performance and Reward Management By Deb, Tapomoy", shelf: 2 },
-          { title: "Student's Guide to Income Tax By Vinod K. Singhania", shelf: 2 },
-          { title: "Object-Oriented Programming in C++ By E. Balagurusamy", shelf: 2 },
-          { title: "Business Environment By Justin Paul", shelf: 2 }
-        ]
-      },
-      b: {
-        id: "B-058",
-        books: [
-          { title: "Ethics in Management By S. A. Sherlekar", shelf: 2 },
-          { title: "Managerial Economics By Gaig H. Peterson", shelf: 2 },
-          { title: "Advanced Auditing By Rajeev Bansal", shelf: 3 },
-          { title: "Marketing Management Indian Cases By Prachi Gupta", shelf: 3 },
-          { title: "Principles of Management By P. C. Tripathi", shelf: 4 },
-          { title: "Advanced Accounts By M. C. Shukla", shelf: 4 },
-          { title: "Introduction to Financial Accounting By Charles Thomas Horngren", shelf: 5 },
-          { title: "Operations and Supply Chain Management By F. Robert Jacobs", shelf: 5 },
-          { title: "Financial Markets and Institutions By Anthony Saunders", shelf: 5 },
-          { title: "Financial Institutions and Markets: Shashi K. Gupta", shelf: 6 },
-          { title: "Business Environment By Shaikh Saleem", shelf: 6 },
-          { title: "International Business By John Daniels", shelf: 6 },
-          { title: "International Business By C. B. Gupta", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "059",
-    subject: "Commerce",
-    subAlmirahs: {
-      a: {
-        id: "A-059",
-        books: [
-          { title: "Entrepreneurship And Management Concepts By Paritosh Sharma", shelf: 1 },
-          { title: "Business Ethics By William H. Shaw", shelf: 1 },
-          { title: "Fundamental of Auditing By S. K. Basu", shelf: 1 },
-          { title: "Business Ethics and Corporate Governance By S. Prabhakaran", shelf: 1 },
-          { title: "Financial Derivatives: Text & Cases By Prakash Yaragol", shelf: 2 },
-          { title: "Marketing Management Indian Cases By Prachi Gupta", shelf: 2 },
-          { title: "Fundamentals of Computer By E. Balaguruswamy", shelf: 2 },
-          { title: "Python The Complete Reference By Mortin C. Brown", shelf: 2 }
-        ]
-      },
-      b: {
-        id: "B-059",
-        books: [
-          { title: "Python Programming By Reema Thareja", shelf: 2 },
-          { title: "Financial Institutions and Markets By Shashi K. Gupta", shelf: 2 },
-          { title: "Direct Taxes Law and Practice By Vinod K. Singhania", shelf: 3 },
-          { title: "Introduction to Statistical Methods By L. B. Gupta", shelf: 3 },
-          { title: "International Financial Reporting Standards By B D Chatterjee", shelf: 3 },
-          { title: "Business Mathematics By R. S. Soni", shelf: 3 },
-          { title: "International Business By V. K. Bhalla", shelf: 3 },
-          { title: "Business Organisation & Management By P. C. Tulsian", shelf: 4 },
-          { title: "TULSIAN'S Quick Revision Book Principles and Practice Accounting By P. C. Tulsian", shelf: 4 },
-          { title: "Goods and Services Tax (G.S.T.) & Customs Duty By H.C. Mehrotra", shelf: 5 },
-          { title: "C++ How to Program By Paul Deitel", shelf: 5 },
-          { title: "Human Resource Management By Sharon Pande", shelf: 6 },
-          { title: "Investments By Bodie Zvi", shelf: 6 },
-          { title: "Human Resource Management By Dr S S Khanka", shelf: 6 },
-          { title: "Cost Accounting By M. C. Shukla", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "060",
-    subject: "Commerce",
-    subAlmirahs: {
-      a: {
-        id: "A-060",
-        books: [
-          { title: "Modern Microeconomics: Theory and Applications By H. L. Ahuja", shelf: 1 },
-          { title: "Essentials of Business Communication By Rajendra Pal", shelf: 1 },
-          { title: "Performance Management: Toward Organizational Excellence By T. V. Rao", shelf: 1 },
-          { title: "Financial Services By M Y Khan", shelf: 2 },
-          { title: "International Business By Francis Cherunilam", shelf: 2 },
-          { title: "Retail Management By R. S. Tiwari", shelf: 2 },
-          { title: "Object-Oriented Programming in C++ By K. Rajaram", shelf: 3 },
-          { title: "Human Resource Management By Gary Dessler", shelf: 3 }
-        ]
-      },
-      b: {
-        id: "B-060",
-        books: [
-          { title: "Performance Management By T. V. Rao", shelf: 3 },
-          { title: "Marketing Management By Philip Kotler", shelf: 3 },
-          { title: "Financial Accounting By P. C. Tulsian", shelf: 4 },
-          { title: "Fundamentals of Computers By Balagurusamy E", shelf: 4 },
-          { title: "Computer Fundamentals By Anita Goel", shelf: 4 },
-          { title: "INTERNATIONAL BUSINESS By Vyuptakesh Sharan", shelf: 5 },
-          { title: "Strategic Corporate Social Responsibility By William Werther", shelf: 5 },
-          { title: "Company Law By Anurag Agnihotri", shelf: 6 },
-          { title: "Programming with C++ By John K. Hubbard", shelf: 6 },
-          { title: "Personal Finance By Jeff Madura", shelf: 6 },
-          { title: "Essentials Of Management By Harold Koontz", shelf: 6 },
-          { title: "Computer Fundamental By Anita Goel", shelf: 6 },
-          { title: "Human Resource Management By Chitra Atmaram Nail", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "061",
-    subject: "Management",
-    subAlmirahs: {
-      a: {
-        id: "A-061",
-        books: [
-          { title: "International Business By V. K. Bhalla", shelf: 1 },
-          { title: "Industrial Engineering and Production Management By Martand T Telsang", shelf: 1 },
-          { title: "Computer Fundamentals By O. P. Nagpal", shelf: 1 },
-          { title: "Banking Law and Practice By Sukhvinder Mishra", shelf: 1 },
-          { title: "Human Resource Text & Case By Aswathappa Das", shelf: 2 },
-          { title: "Marketing Management By Rajan Saxena", shelf: 2 },
-          { title: "Principles of Economics V. C. Sinha", shelf: 2 }
-        ]
-      },
-      b: {
-        id: "B-061",
-        books: [
-          { title: "Financial Management Theory and Practice By Prasanna Chandra", shelf: 3 },
-          { title: "Principles of Risk Management and Insurance By George Rejda", shelf: 3 },
-          { title: "Principles of Corporate Finance By Richard A. Brealey", shelf: 3 },
-          { title: "Managerial Economics By D. N. Dwivedi", shelf: 3 },
-          { title: "Managing for Value By S. S. Iyer", shelf: 3 },
-          { title: "Projects: Planning, Analysis, Selection, Financing, Implementation By Chandra", shelf: 4 },
-          { title: "Essentials of Management By Harold Koontz", shelf: 4 },
-          { title: "Human Resource Management By Garg Dessler", shelf: 4 },
-          { title: "Production and Operations Management By PANNEERSELVAM, R.", shelf: 4 },
-          { title: "Introducing Data Science By Davy Cielen", shelf: 4 },
-          { title: "Business Environment By Shaikh Saleem", shelf: 5 },
-          { title: "Marketing Management By Philip Kotler", shelf: 5 },
-          { title: "Management B James A.F. Stoner", shelf: 5 },
-          { title: "Principles of Marketing By Philip Kotler", shelf: 5 },
-          { title: "Industrial Engineering and Management By O. P. Khanna", shelf: 6 },
-          { title: "Marketing Management By Arun Kumar", shelf: 6 },
-          { title: "International Business Text & Cases By P. Subha Rao", shelf: 6 },
-          { title: "Marketing Management By Philip Kotler", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "062",
-    subject: "Management",
-    subAlmirahs: {
-      a: {
-        id: "A-062",
-        books: [
-          { title: "Entrepreneurship and Management Concepts By Vikash Saraf", shelf: 1 },
-          { title: "Financial Management By S. P. Gupta", shelf: 1 },
-          { title: "Entrepreneurship Development By P. C. Shejwalkas", shelf: 1 },
-          { title: "Security Analysis and Portfolio Management By Donald E. Fischer", shelf: 1 },
-          { title: "Management of Financial Institutions and Services By R. S. Sachdeva", shelf: 1 },
-          { title: "Entrepreneurship, By Robert Hisrich", shelf: 1 },
-          { title: "Business Ethics By F. C. Sharma", shelf: 2 },
-          { title: "Financial Accounting For Managers By Sanjay Dhamija", shelf: 2 }
-        ]
-      },
-      b: {
-        id: "B-062",
-        books: [
-          { title: "Financial Management By V. K. Bhalla", shelf: 2 },
-          { title: "Hospital & Clinical Pharmacy Theory & Practicals By K. Sampath", shelf: 2 },
-          { title: "International Finance By Jayanta Kumar Seal", shelf: 2 },
-          { title: "Taxmans Direct Taxes Law & Practice By Vinod Kumar Singhanis", shelf: 2 },
-          { title: "International Business By Ritika Sinha", shelf: 3 },
-          { title: "Human Resource Management By S. S. Khanka", shelf: 3 },
-          { title: "Entrepreneurial Development By Dr S S Khanka", shelf: 3 },
-          { title: "Human Resource Management By R. C. Agrawal", shelf: 3 },
-          { title: "Human Resource Management By F. C. Sharma", shelf: 3 },
-          { title: "International Economics By H. G. Mannur", shelf: 3 },
-          { title: "Organisational Behaviour By C. B. Gupta", shelf: 4 },
-          { title: "Accounting For Management By S. K. Bhattacharya", shelf: 4 },
-          { title: "Introduction to Statistical Methods By C. B. Gupta", shelf: 4 },
-          { title: "Managements Accountings By M. E. Thukaram", shelf: 4 },
-          { title: "Essentials Of Business Environment By Aswathappa", shelf: 5 },
-          { title: "The Dynamics of Entrepreneurial Development and Management By Vasant Desai", shelf: 5 },
-          { title: "Business Environment Text & Cases Ed 27 By Francis Cherunilam", shelf: 5 },
-          { title: "Business Environment Text & Cases Ed 28 By Francis Cherunilam", shelf: 5 },
-          { title: "Management Accounting: Principles & Practices By M. S. Shaf", shelf: 6 },
-          { title: "Organisational Behaviour By K. Aswathappa", shelf: 6 },
-          { title: "Indian Economy By V. K. Puri", shelf: 6 },
-          { title: "International financial management By Sharan Vyuptakesh", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "063",
-    subject: "Management",
-    subAlmirahs: {
-      a: {
-        id: "A-063",
-        books: [
-          { title: "Business Environment By Amit Kumar", shelf: 1 },
-          { title: "International Business By Charles W. L. Hill", shelf: 1 },
-          { title: "Business Ethics By C. S. V. Murthy", shelf: 1 },
-          { title: "Issues in Twentieth-Century World History By Sneh Mahajan", shelf: 2 },
-          { title: "Research Methodology By C. R. Kothari", shelf: 2 },
-          { title: "Sales and Distribution Management By Richard R. Still", shelf: 3 },
-          { title: "Production & Operations Management By S. N. Chary", shelf: 3 },
-          { title: "Business Ethics By O. C. Ferrell", shelf: 3 }
-        ]
-      },
-      b: {
-        id: "B-063",
-        books: [
-          { title: "Sales & Distribution Management By V. C. Mathur", shelf: 3 },
-          { title: "Supply Chain Management By C. John Langley", shelf: 3 },
-          { title: "Banking Theory Law & Practice By E. Gordon", shelf: 4 },
-          { title: "Advanced Accounts By M. C. Shukla", shelf: 4 },
-          { title: "Sales and Distribution Management By Tapan K. Panda", shelf: 4 },
-          { title: "International Financial Management By P. G. Apte", shelf: 4 },
-          { title: "Supply Chain Management By Sunil Chopra", shelf: 4 },
-          { title: "Business Intelligence and Analytics: Systems for Decision Support By Dursun Delen", shelf: 5 },
-          { title: "Business Communication Essentials By Courtland L Bovee", shelf: 5 },
-          { title: "Security Analysis & Portfolio Management By Shalini Talwar", shelf: 5 },
-          { title: "Total Quality Management By V. Vijayan", shelf: 5 },
-          { title: "Cost Accounting By S. P. Jain", shelf: 6 },
-          { title: "Marketing Research & Consumer Behaviour By S. Sumathi", shelf: 6 },
-          { title: "Statistics for Management By Richard I. Lovin", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "064",
-    subject: "Management",
-    subAlmirahs: {
-      a: {
-        id: "A-064",
-        books: [
-          { title: "E-Commerce (Business Technology Society) By Kenneth C. Laudon", shelf: 1 },
-          { title: "Services Marketing: Concepts, Strategies & Cases By John E. G. Bateson", shelf: 1 },
-          { title: "E-Governance By C. S. R. Prabhu", shelf: 1 },
-          { title: "E-Governance Technology By V. Rajaraman", shelf: 1 },
-          { title: "E-Governance & Applications By Adesh Ku. Pandey", shelf: 1 },
-          { title: "Managerial Decision Modeling With Spreadsheets By Nagraj Alakrishnan", shelf: 2 },
-          { title: "Information Storage & Management By G. Somasundaram", shelf: 2 },
-          { title: "E-Governance (Indian Perspective) By P. T. Joseph", shelf: 2 }
-        ]
-      },
-      b: {
-        id: "B-064",
-        books: [
-          { title: "Event Marketing & Management By Sanjay Singh Gaur", shelf: 3 },
-          { title: "Information Storage & Management By G. Somasundaram", shelf: 3 },
-          { title: "Financial Services By M. Y. Khan", shelf: 4 },
-          { title: "Insurance Management By Karam Pal", shelf: 4 },
-          { title: "Principles of Management By Pravin Durai", shelf: 4 },
-          { title: "Financial Management By C. Paramasivan", shelf: 4 },
-          { title: "Advertising & IMC By Sandra Moriarty", shelf: 5 },
-          { title: "Investment Analysis & Portfolio Management By Prasanna Chandra", shelf: 5 },
-          { title: "Strategic Management By Fred R. David", shelf: 6 },
-          { title: "Business Communication By K. K. Sinha", shelf: 6 },
-          { title: "T. B. of Accounting Management By S. N. Maheshwari", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "065",
-    subject: "Management",
-    subAlmirahs: {
-      a: {
-        id: "A-065",
-        books: [
-          { title: "Retail Management By Marjit Singh", shelf: 1 },
-          { title: "Marketing Research By Naresh K. Malhotra", shelf: 1 },
-          { title: "Business Communication By K. K. Singh", shelf: 2 },
-          { title: "Cost Accounting By M. N. Arora", shelf: 2 },
-          { title: "Corporate Accounting By S. N. Maheshwari", shelf: 2 },
-          { title: "Marketing Management By K. Karunakaran", shelf: 3 },
-          { title: "Managerial Economics By H. L. Ahuja", shelf: 3 }
-        ]
-      },
-      b: {
-        id: "B-065",
-        books: [
-          { title: "Financial Planning: Theory and Practice By Sid Mittra", shelf: 3 },
-          { title: "Principles and Practice of Management By L. M. Prasad", shelf: 4 },
-          { title: "Essentials of Management By Harold Koontz", shelf: 4 },
-          { title: "Investment Analysis & Portfolio Management By R. P. Rustogi", shelf: 5 },
-          { title: "Marketing Management By Arun Kumar", shelf: 5 },
-          { title: "Business Laws By Jyoti Rattan", shelf: 6 },
-          { title: "Advanced Accountis Vol-1 By M. C. Shukla", shelf: 6 },
-          { title: "Global Marketing Management By Warren J. Keegan", shelf: 6 },
-          { title: "Supply Chain Logistics Management By Donald J. Bowersox", shelf: 6 }
-        ]
-      }
-    }
-  },
-  {
-    id: "066",
-    subject: "Management",
-    subAlmirahs: {
-      a: {
-        id: "A-066",
-        books: [
-          { title: "Cost & Management Accounting By M. N. Arora", shelf: 1 },
-          { title: "Financial Management By I. M. Pandey", shelf: 2 },
-          { title: "Business Ethics and Mangerial Values By  S. K. Dhatia", shelf: 2 },
-          { title: "Management Accounting By M. Y. Khan", shelf: 3 },
-          { title: "Management Accounting By M. Y. Khan", shelf: 4 },
-          { title: "International Business By Sonia Gupta", shelf: 4 },
-          { title: "total Quality Management By  K. Shridhara Bhat", shelf: 5 },
-          { title: "Consumer Behavior By Leon G. Schiffman", shelf: 5 },
-          { title: "Business & Research Methods By William G. Zikmund", shelf: 6 },
-          { title: "Project Management By Jeffrey K. Pinto", shelf: 6 }
-        ]
-      },
-      b: {
-        id: "B-066",
-        books: [
-          { title: "Event Marketing & Management By Sanjay Singh Gaur", shelf: 1 },
-          { title: "Business Policy & Strategic Management By Senthil Kumar", shelf: 1 },
-          { title: "Principles of Supply Chain Management: A Balanced Approach \nBy G. Keong Leong,", shelf: 2 },
-          { title: "Event Planning. By Shannon Kilkenny", shelf: 2 },
-          { title: "Business Research Methodology By J. K. Sechdeva", shelf: 3 },
-          { title: "Business Analytics By James R. Evans", shelf: 3 },
-          { title: "Business Statistics By S. C. Gupta", shelf: 3 },
-          { title: "Strategic Management Concepts By Fred R. David", shelf: 4 },
-          { title: "Security Analysis and Portfolio Management, 2nd Edition \nBy Punithavathy Pandian", shelf: 4 },
-          { title: "Big Data & Analytics By Seema Acharya", shelf: 5 },
-          { title: "Big Data Analytics By Raj Kamal", shelf: 5 },
-          { title: "Management Concepts & Practices By Manmohan Prasad", shelf: 5 },
-          { title: "Marketing Research By David A. Aaker", shelf: 5 },
-          { title: "Concepts in Strategic Management & Business Policy By Thomas L. Wheelen", shelf: 6 },
-          { title: "Comparative Governament & Politics By A. Bhatt", shelf: 6 },
-          { title: "Leadership in Organizations By Gary Yukl", shelf: 6 },
-          { title: "Organizational Theory Design & Change By Gareth R. Jones", shelf: 6 },
-          { title: "Big Data Analytics By Radhan Shankarmani", shelf: 6 }
-        ]
-      }
-    }
   }
 ];
-
-
