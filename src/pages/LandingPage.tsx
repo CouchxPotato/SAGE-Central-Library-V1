@@ -21,6 +21,7 @@ export function LandingPage() {
               <div className="bg-white rounded-xl shadow-lg">
                 <img
                   src="/uni_logo.png"
+                  href="https://sage-central-library.onrender.com/"
                   alt="University Logo"
                   className="w-42 h-14"
                 />
