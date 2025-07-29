@@ -3,12 +3,10 @@ import { useParams, Link } from 'react-router-dom';
 import { books } from '../data/books';
 import { BookOpenCheck, Library, ArrowLeft } from 'lucide-react';
 import { ThemeToggle } from '../components/ThemeToggle';
-import { useNavigate } from 'react-router-dom';
 
 export function ShelfPage() {
   const { shelfId } = useParams();
   const shelfBooks = books.filter(book => book.shelf_no === Number(shelfId));
-  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-uni-yellow to-uni-orange
@@ -16,10 +14,10 @@ export function ShelfPage() {
       <header className="bg-gradient-to-r from-uni-maroon to-uni-red text-white py-6 px-4
       dark:from-slate-900 dark:to-uni-maroon text-white">
         <div className="max-w-4xl mx-auto">
-          <button
-  onClick={() => navigate(-1)}
-  className="inline-flex items-center gap-2 text-uni-gold hover:text-white mb-4 transition-colors"
->
+          <Link 
+            to="https://sage-central-library.onrender.com/library/"
+            className="inline-flex items-center gap-2 text-uni-gold hover:text-white mb-4 transition-colors"
+          >
             <ArrowLeft className="w-4 h-4" />
             <span>Back to Library</span>
           </Link>
