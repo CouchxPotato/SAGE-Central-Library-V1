@@ -19,7 +19,7 @@ export function AlmirahPage() {
       dark:from-slate-900 dark:to-uni-maroon text-white">
         <div className="max-w-6xl mx-auto">
           <Link 
-            to="/"
+            to="https://sage-central-library.onrender.com/library"
             className="btn-hover inline-flex items-center gap-2 text-uni-yellow hover:text-white mb-4 px-3 py-1 rounded-lg"
           >
             <ArrowLeft className="w-4 h-4 transition-transform duration-300 group-hover:-translate-x-1" />
