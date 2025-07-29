@@ -15,7 +15,7 @@ export function ShelfPage() {
       dark:from-slate-900 dark:to-uni-maroon text-white">
         <div className="max-w-4xl mx-auto">
           <Link 
-            to="/"
+            to="/library"
             className="inline-flex items-center gap-2 text-uni-gold hover:text-white mb-4 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
