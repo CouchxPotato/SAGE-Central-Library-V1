@@ -15,12 +15,13 @@ export default function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-6">
               <div className="bg-white rounded-xl shadow-lg">
+                <a href="https://sage-central-library.onrender.com/"> 
                 <img
                   src="/uni_logo.png"
                   alt="University Logo"
-                  href="https://sage-central-library.onrender.com"
                   className="w-42 h-14"
                 />
+                </a> 
               </div>
               <div>
                 <h1 className="text-4xl font-bold tracking-tight">
