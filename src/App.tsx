@@ -18,6 +18,7 @@ export default function App() {
                 <img
                   src="/uni_logo.png"
                   alt="University Logo"
+                  href="https://sage-central-library.onrender.com"
                   className="w-42 h-14"
                 />
               </div>
